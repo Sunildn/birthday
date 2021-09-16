@@ -42,3 +42,38 @@
 .form-group{
   position: relative
 }
+
+.select-bar{
+  position: relative;
+  width: 50%;
+  height: 50%;
+background-color: width !important;
+border-radius: 5px;
+left: 25%;
+padding: 30px 10px;
+box-shadow:  10px 10px  rgba(0, 0, 0, 0.16);
+}
+
+.numbers{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text{
+  padding-top: 15px;
+}
+
+.description{
+  margin-top:10px;
+}
+
+.begin-button{
+  width: 170px;
+  height: 60px;
+  margin-top: 50px;
+}
+
+.btn.btn-primary.btn-lg {
+  background-color: rgba(244, 49, 167, var(--tw-bg-opacity)) !important;
+}
