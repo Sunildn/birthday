@@ -4,8 +4,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 // CONTEXT
-import { FairyContextProvider } from './context';
-
+import { FairyContextProvider,LoginContextProvider } from './context';
 // PAGES
 // import { Home, OurMission } from './pages/Main';
 import { Begin, SelectTwin, SelectCake, OrderCake, Complete } from './pages';
@@ -13,6 +12,7 @@ import { Begin, SelectTwin, SelectCake, OrderCake, Complete } from './pages';
 function App() {
   return (
     <FairyContextProvider>
+      <LoginContextProvider>
       <Router>
         <div className="App">
           <Switch>
@@ -29,6 +29,7 @@ function App() {
           </Switch>
         </div>
       </Router>
+      </LoginContextProvider>
     </FairyContextProvider>
   );
 }

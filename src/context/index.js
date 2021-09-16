@@ -1,4 +1,5 @@
 import FairyContextProvider, { FairyContext } from './fairyContext';
+import LoginContextProvider, { LoginContext } from './login';
 
 export {
     // PROVIDERS
@@ -6,4 +7,7 @@ export {
 
     // CONTEXT
     FairyContext,
+    LoginContext,
+    LoginContextProvider
+    
 };
